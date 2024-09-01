@@ -41,6 +41,9 @@
     display: none;
 }
 
+.cta_custom .hero-content p{
+    max-width: 540px;
+}
 
 .hero-content .hero-title {
     max-width: 1200px;
