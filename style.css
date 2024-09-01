@@ -92,11 +92,11 @@
     object-fit: cover;
 }
 .service_item h3{
-   color: #bd8c62;
+   color: #c89735;
 }
 .service_item a.read_more{
     font-size: 18px;
-    color: #bd8c62;
+    color: #ac802e;
     display: flex;
     align-items: center;
 }
@@ -107,6 +107,7 @@
 
 .cta_custom{
     height: auto!important;
+    width: 100%!important;
 }
 
 .partners_row{
@@ -125,7 +126,17 @@
     object-fit: contain;
     padding: 16px;
 }
-
+.logo_custom img{
+    height: 100px;
+}
+.projects_page .project-item .project-content{
+    background: #222!important;
+}
+@media (max-width: 1300px) {
+    .logo_custom img{
+        height: 80px;
+    }
+  }
 @media screen and (max-width:1220px){
     .header_social_icons{
         display: none;
@@ -199,6 +210,9 @@
 .hero_site_title{
     margin-bottom: 30px!important;
 }
+.custom_logo_mobile img{
+    height: 80px;
+}
 }
 
 @media screen and (max-width:500px){
@@ -210,4 +224,18 @@
    }
 }
 
+@media screen and (max-width:480px){
+    .custom_logo_mobile img{
+        height: 60px;
+    }
+    .header-2 .primary-header-inner .header-logo {
+        max-width: fit-content;
+        width: 100%;
+    }
+}
 
+@media screen and (max-width:380px){
+    .call_now a{
+        font-size: 14px!important;
+    }
+}
