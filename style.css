@@ -1,9 +1,9 @@
 
 
 
-/* .header_custom{
+.header_custom{
     background: #111;
-} */
+}
 
 .header_social_icons ul {
     display: -webkit-box;
@@ -134,6 +134,13 @@
 }
 .projects_page .project-item .project-content{
     background: #222!important;
+}
+.video_row{
+    display: flex;
+    row-gap: 30px;
+}
+.video_item .owl-nav{
+  display: none;
 }
 @media (max-width: 1300px) {
     .logo_custom img{
