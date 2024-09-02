@@ -145,6 +145,9 @@
 .video_item .owl-nav{
   display: none;
 }
+.page_hero{
+    margin-top: 60px;
+}
 .page_hero p{
     color: #fff;
 }
@@ -194,6 +197,9 @@
     }
     .hero_text_btm_right{
         display: none;
+    }
+    .page_hero{
+        margin-top: 0px;
     }
 }
 @media screen and (max-width:768px){

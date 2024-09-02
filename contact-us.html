@@ -157,7 +157,7 @@
     <div class="mobile-side-menu-overlay"></div>
 
 
-    <section class="page-header mt-5 page_hero" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/images/contact-arete.jpeg'); background-size: cover; background-position: center;">
+    <section class="page-header page_hero" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/images/contact-arete.jpeg'); background-size: cover; background-position: right;">
         <div class="container">
             <div class="col-lg-12">
                 <div class="page-header-content text-center">
@@ -232,63 +232,31 @@
                     <div class="section-heading text-center mb-60">
                         <h2 class="section-title">Get in Touch</h2>
                         <p>
-                            Trage agile frameworks to provide a robust synopsis for high level overviews Iterative
-                            approaches to corporate strategy foster collabo
+                            Whether you have a question, need assistance, or just want to discuss, we are ready to assist. Fill out the form below, and we’ll respond promptly.
                         </p>
                     </div>
                     <div class="beauly-contact-form">
                         <form action="contact.php" method="post" id="ajax_contact" class="form-horizontal">
-                            <div class="row">
-                                <div class="form-group col-12">
-                                    <input
-                                        type="text"
-                                        id="firstname"
-                                        name="firstname"
-                                        class="form-control"
-                                        placeholder="Full Name*"
-                                        required=""
-                                    />
+                            <div class="row form_row">
+                                <div class="form-group col-6">
+                                    <input type="text" id="firstname" name="firstname" class="form-control"
+                                        placeholder="First Name*" required="" />
                                 </div>
-                                <div class="form-group col-12">
-                                    <input
-                                        type="email"
-                                        id="email"
-                                        name="email"
-                                        class="form-control"
-                                        placeholder="E-mail*"
-                                        required=""
-                                    />
+                                <div class="form-group col-6">
+                                    <input type="text" id="lastname" name="lastname" class="form-control"
+                                        placeholder="Last Name*" required="" />
                                 </div>
                                 <div class="form-group col-sm-6">
-                                    <input
-                                        type="text"
-                                        id="phone"
-                                        name="phone"
-                                        class="form-control"
-                                        placeholder="Phone*"
-                                        required=""
-                                    />
+                                    <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone*"
+                                        required="" />
                                 </div>
-                                <div class="form-group col-sm-6">
-                                    <input
-                                        type="text"
-                                        id="ride-time"
-                                        name="ride-time"
-                                        class="form-control time-picker"
-                                        placeholder="Select Time"
-                                        required=""
-                                    />
+                                <div class="form-group col-6">
+                                    <input type="email" id="email" name="email" class="form-control"
+                                        placeholder="E-mail*" required="" />
                                 </div>
                                 <div class="form-group col-12">
-                                    <textarea
-                                        id="message"
-                                        name="message"
-                                        cols="30"
-                                        rows="5"
-                                        class="form-control address"
-                                        placeholder="Message"
-                                        required=""
-                                    ></textarea>
+                                    <textarea id="message" name="message" cols="30" rows="5"
+                                        class="form-control address" placeholder="Message" required=""></textarea>
                                 </div>
                             </div>
                             <input type="hidden" name="action" value="mailchimpsubscribe" />
