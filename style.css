@@ -135,6 +135,9 @@
 .projects_page .project-item .project-content{
     background: #222!important;
 }
+.video_section{
+    overflow: hidden;
+}
 .video_row{
     display: flex;
     row-gap: 30px;
