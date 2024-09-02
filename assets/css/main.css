@@ -2442,7 +2442,7 @@ START: Theme About CSS
   .about-section .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
+        /* -ms-flex-direction: column-reverse; */
             /* flex-direction: column-reverse; */
   }
 }

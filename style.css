@@ -145,6 +145,13 @@
 .video_item .owl-nav{
   display: none;
 }
+.page_hero p{
+    color: #fff;
+}
+.social_icons_cotact_page{
+    display: flex;
+    justify-content: center;
+}
 @media (max-width: 1300px) {
     .logo_custom img{
         height: 80px;
@@ -163,6 +170,9 @@
     }
     .service_item .project-thumb {
         height: 200px;
+    }
+    .social_icons_cotact_page{
+        display: flex;
     }
 }
 @media screen and (max-width:992px){
@@ -201,6 +211,9 @@
 }
 .cta_custom .hero-content{
     text-align: center;
+}
+.contact-item {
+    border-right: 0px solid var(--tj-color-border-5);
 }
 }
 @media screen and (max-width:576px){
