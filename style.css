@@ -194,6 +194,22 @@
 .blog_section .post-card .post-content{
     background: #222!important;
 }
+.blog-details-thumb img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.recent_posts .thumb{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+.recent_posts .thumb img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 
 @media (max-width: 1300px) {
     .logo_custom img{
@@ -253,7 +269,10 @@
     }
     .vision_section{
         padding-left: 0px;
-    }
+    }   
+   .margin_top{
+    margin-top: 0px;
+   }
 }
 
 @media screen and (max-width:768px){
