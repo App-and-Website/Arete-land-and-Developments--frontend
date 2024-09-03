@@ -162,6 +162,30 @@
 .vision_section{
     padding-left: 120px;
 }
+
+.service_list{
+  list-style: none;
+  padding-left: 10px;
+  margin-top: 25px;
+}
+.why_items{
+    display: flex;
+    align-items: center;
+}
+.why_items h3{
+    line-height: 32px!important;
+}
+.cta_Service_p{
+    max-width: 100%!important;
+}
+.why_items .amenities-item{
+    border: 1px solid #c99222;
+    min-height: 280px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 @media (max-width: 1300px) {
     .logo_custom img{
         height: 80px;
