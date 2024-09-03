@@ -155,6 +155,13 @@
     display: flex;
     justify-content: center;
 }
+.about_page_intro{
+    font-size: 42px;
+    line-height: 48px!important;
+}
+.vision_section{
+    padding-left: 120px;
+}
 @media (max-width: 1300px) {
     .logo_custom img{
         height: 80px;
@@ -178,6 +185,7 @@
         display: flex;
     }
 }
+
 @media screen and (max-width:992px){
     .footer-area .footer-bottom .footer-content .footer-right ul {
         gap: 0px;
@@ -201,7 +209,20 @@
     .page_hero{
         margin-top: 0px;
     }
+    .director_row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .beauly-contact-form {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .vision_section{
+        padding-left: 0px;
+    }
 }
+
 @media screen and (max-width:768px){
     .footer_bottom_pages ul li:first-child{
         margin-right: 20px!important;
