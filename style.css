@@ -210,6 +210,28 @@
     object-fit: cover;
 }
 
+.free_quote_form{
+    background: #222;
+    padding: 70px 0;
+    border-radius: 12px;
+}
+.form_select .form-control{
+    width: 100%;
+    height: 60px;
+    padding-top: 10px!important;
+}
+.form_select .form-control ul{
+    width: 100%;
+    background: #111;
+}
+.form_select .form-control .current{
+    color: #bbb;
+}
+.form_select .form-control ul li{
+    background: #222;
+    border: 1px solid #111;
+    color: #ccc;
+}
 
 @media (max-width: 1300px) {
     .logo_custom img{
@@ -232,6 +254,12 @@
     }
     .social_icons_cotact_page{
         display: flex;
+    }
+    .free_quote_form .section-heading{
+        padding: 0 40px;
+    }
+    .free_quote_form .beauly-contact-form{
+        padding: 0 40px;
     }
 }
 
@@ -317,6 +345,15 @@
 }
 .custom_logo_mobile img{
     height: 80px;
+}
+.free_quote_section{
+    padding: 0;
+}
+.free_quote_form .section-heading{
+    padding: 0 20px;
+}
+.free_quote_form .beauly-contact-form{
+    padding: 0 20px;
 }
 }
 
