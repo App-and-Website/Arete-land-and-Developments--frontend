@@ -1024,8 +1024,9 @@ START: Theme Header CSS
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 20px 0;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+}
+.header_phone_desktop{
+  margin-right: 30px;
 }
 @media (max-width: 991px) {
   .header-2 .primary-header-inner {
@@ -1033,7 +1034,7 @@ START: Theme Header CSS
   }
 }
 .header-2 .primary-header-inner .header-logo {
-  max-width: 320px;
+  max-width: 280px;
   width: 100%;
 }
 .header-2 .primary-header-inner .header-logo a {
@@ -1041,21 +1042,27 @@ START: Theme Header CSS
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 991px), (max-width: 767px), (max-width: 575px) {
   .header-2 .primary-header-inner .header-logo {
-    max-width: 250px;
+    max-width: 220px;
     width: 100%;
   }
+  .header_phone_desktop{
+    margin-right: 16px;
+}
 }
 .header-2 .primary-header-inner .header-menu-wrap .sub-menu li {
-  margin: 0 30px;
+  margin: 0 20px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .header-2 .primary-header-inner .header-menu-wrap .sub-menu li {
-    margin: 0 20px;
+    margin: 0 10px;
   }
+  .header_phone_desktop{
+    margin-right: 10px;
+}
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .header-2 .primary-header-inner .header-menu-wrap .sub-menu li {
-    margin: 0 10px;
+    margin: 0 5px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1078,11 +1085,11 @@ START: Theme Header CSS
   height: 45px;
   line-height: 45px;
 }
-.header-2 .primary-header-inner .header-right {
+/* .header-2 .primary-header-inner .header-right {
   -webkit-column-gap: 30px;
      -moz-column-gap: 30px;
           column-gap: 30px;
-}
+} */
 .header-2 .primary-header-inner .header-right .header-logo {
   display: inline-block;
 }
