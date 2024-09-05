@@ -130,7 +130,9 @@
     padding: 16px;
 }
 .logo_custom img{
-    height: 100px;
+    max-height: 100px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 .projects_page .project-item .project-content{
     background: #222!important;
@@ -233,11 +235,12 @@
     color: #ccc;
 }
 
-@media (max-width: 1300px) {
-    .logo_custom img{
-        height: 80px;
+@media screen and (max-width:1250px){
+    .header-2 .primary-header-inner .header-menu-wrap .sub-menu li {
+        margin: 0 6px;
     }
-  }
+}
+
 @media screen and (max-width:1220px){
     .header_social_icons{
         display: none;
@@ -343,9 +346,6 @@
 .hero_site_title{
     margin-bottom: 30px!important;
 }
-.custom_logo_mobile img{
-    height: 80px;
-}
 .free_quote_section{
     padding: 0;
 }
@@ -368,7 +368,8 @@
 
 @media screen and (max-width:480px){
     .custom_logo_mobile img{
-        height: 60px;
+       max-height: 50px;
+       padding-bottom: 5px;
     }
     .header-2 .primary-header-inner .header-logo {
         max-width: fit-content;

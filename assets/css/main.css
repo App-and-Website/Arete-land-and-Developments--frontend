@@ -699,7 +699,7 @@ START: Theme Header CSS
 .header .primary-header-inner .header-contact-area i {
   color: var(--tj-color-common-white);
   font-size: 16px;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .header .primary-header-inner .header-contact-area i {
@@ -1042,7 +1042,7 @@ START: Theme Header CSS
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 991px), (max-width: 767px), (max-width: 575px) {
   .header-2 .primary-header-inner .header-logo {
-    max-width: 220px;
+    max-width: 200px;
     width: 100%;
   }
   .header_phone_desktop{
@@ -1052,6 +1052,7 @@ START: Theme Header CSS
 .header-2 .primary-header-inner .header-menu-wrap .sub-menu li {
   margin: 0 20px;
 }
+
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .header-2 .primary-header-inner .header-menu-wrap .sub-menu li {
     margin: 0 10px;
@@ -1062,12 +1063,12 @@ START: Theme Header CSS
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .header-2 .primary-header-inner .header-menu-wrap .sub-menu li {
-    margin: 0 5px;
+    margin: 0 10px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-2 .primary-header-inner .header-menu-wrap .sub-menu li {
-    margin: 0 15px;
+    margin: 0 10px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
